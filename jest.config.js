@@ -63,7 +63,7 @@ module.exports = {
   coverageDirectory: 'coverage',
   
   // Coverage reporters
-  coverageReporters: ['html', 'text-summary', 'lcov'],
+  coverageReporters: ['html', 'text-summary', 'lcov', 'json-summary'],
   
   // Clear mocks between tests
   clearMocks: true,
